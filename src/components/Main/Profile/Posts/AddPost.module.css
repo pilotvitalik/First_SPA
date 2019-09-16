@@ -1,0 +1,60 @@
+.addPost{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 94.8%;
+	height: auto;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 0.2em;
+}
+.addPost div{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #888da8;;
+}
+.addPost div label{
+	display: inline-block;
+	position: absolute;
+	z-index: 111;
+	width: 85%;
+	height: 15px;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(136, 141, 168);
+	padding: auto 0;
+	padding-left: 15%;
+	top: 10px;
+}
+.addPost div textarea{
+	width: 85%;
+	height: 130px;
+	position: relative;
+	border: none;
+	outline: none;
+	resize: none;
+	overflow: auto;
+	padding-top: 30px;
+	padding-left: 15%;
+}
+.addPost button{
+	align-self: flex-end;
+	width: 125px;
+	height: 35px;
+	margin: 20px 25px;
+	border: 1px solid rgb(255,94,58);
+	border-radius: 7px;
+	background: rgb(255,94,58);
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 1px;
+	outline: none;
+}
+.addPost button:hover{
+	cursor: pointer;
+}

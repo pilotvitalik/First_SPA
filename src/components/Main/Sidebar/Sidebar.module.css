@@ -1,0 +1,12 @@
+.sidebar{
+			display: block;
+			position: absolute;
+			width: 245px;
+			height: 260px;
+			padding-left: 25px;
+			font-size: 13px;
+			font-family: 'Roboto';
+			color: rgb(154, 159, 191);
+			z-index: 111;
+			background: yellow;
+		}

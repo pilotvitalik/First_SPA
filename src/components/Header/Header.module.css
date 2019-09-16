@@ -1,0 +1,39 @@
+header{
+		display: block;
+		position: relative;
+		background: rgb(63, 66, 87);;
+		height: 70px;
+		}
+		header>div{
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			position: relative;
+			width: 100%;
+		}
+		.img{
+			display: flex;
+			align-items: center;
+			position: relative;
+			width: 270px;
+			height: 70px;
+			background: rgb(255, 94, 58);
+		}
+		.img img{
+			display: block;
+			position: relative;
+			width: 34px;
+			height: 34px;
+			margin-left: 18px;
+			background: rgb(255, 94, 58);
+		}
+		.img h6{
+			display: inline-block;
+			position: relative;
+			margin-left: 20px;
+			color: #fff;
+			font-size: 14px;
+			font-family: 'Roboto';
+			font-weight: 700;
+			text-transform: uppercase;
+	}

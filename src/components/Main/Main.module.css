@@ -1,0 +1,7 @@
+main{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		position: relative;
+		width: 100%;
+		}
