@@ -14,7 +14,8 @@ function Profile(){
 			</div>
 			<div className={clas.post}>
 				<AddPost />
-				<Post />
+				<Post message='Hello world!' like='39'/>
+				<Post message='Hi piece!' like='50'/>
 			</div>
 		</div>
 	);

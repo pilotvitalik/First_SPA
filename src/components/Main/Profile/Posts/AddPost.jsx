@@ -1,5 +1,6 @@
 import React from 'react';
-import Avatar from './common_comp/Avatar.jsx'
+import Avatar from './common_comp/Avatar';
+import Textarea from './common_comp/Textarea';
 import clas from './AddPost.module.css';
 
 const AddPost = () => {
@@ -8,7 +9,7 @@ const AddPost = () => {
 			<div>
 				<Avatar />
 				<label>Поделитесь о чем Вы думаете...</label>
-				<textarea id='_1'></textarea>
+				<Textarea />
 			</div>
 			<button type='button'>Отправить</button>
 		</form>
