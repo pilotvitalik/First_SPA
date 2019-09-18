@@ -6,6 +6,7 @@
 	min-height: 150px;
 	max-height: 450px;
 	margin: 15px auto;
+	border: 1px solid #fff;
 	border-radius: 0.3em;
 	background: #fff;
 }

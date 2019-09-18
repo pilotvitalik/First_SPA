@@ -1,0 +1,23 @@
+.messages{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	position: relative;
+	width: 50%;
+	height: 590px;
+	margin: 0 auto;
+}
+.user{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 30%;
+	background: orange;
+}
+.communic{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 70%;
+	background: yellow;
+}

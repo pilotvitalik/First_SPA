@@ -1,12 +1,9 @@
 .sidebar{
 			display: block;
 			position: absolute;
-			width: 245px;
+			width: 17.9%;
 			height: 260px;
-			padding-left: 25px;
-			font-size: 13px;
-			font-family: 'Roboto';
-			color: rgb(154, 159, 191);
+			padding-left: 1.85%;
 			z-index: 111;
 			background: yellow;
 		}

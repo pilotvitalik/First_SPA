@@ -1,11 +1,12 @@
 import React from 'react';
-import clas from './Sidebar.module.css'
+import clas from './Sidebar.module.css';
+import Navbar from './navbar/Navbar';
 
 function Sidebar(){
 	return(
-		<aside className={clas.sidebar}>
-			Навигация
-		</aside>
+		<div className={clas.sidebar}>
+			<Navbar />
+		</div>
 	);
 }
 

@@ -8,7 +8,7 @@ function Post(props){
 		<div className={clas.post}>
 			<div>
 				<Avatar />
-				<Textarea message={props.message}/>
+				<Textarea mes={props.mes} readOnly/>
 			</div>
 			<div>
 				<div>
