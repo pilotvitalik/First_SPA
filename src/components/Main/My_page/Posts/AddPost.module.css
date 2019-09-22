@@ -47,3 +47,14 @@
 .addPost button:hover{
 	cursor: pointer;
 }
+.textarea{
+	width: 85%;
+	height: 130px;
+	position: relative;
+	border: none;
+	outline: none;
+	resize: none;
+	overflow: auto;
+	padding-top: 30px;
+	padding-left: 15%;
+}

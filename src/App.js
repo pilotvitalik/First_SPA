@@ -4,11 +4,12 @@ import Main from './components/Main/Main';
 import './App.css';
 
 
-function App(){
+function App(props){
+
   return (
     <div className = 'wrapper'>
 	    <Header />
-     	<Main />
+     	<Main state = {props.state}/>
     </div>
   );
 }

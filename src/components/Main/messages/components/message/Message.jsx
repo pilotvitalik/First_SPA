@@ -4,7 +4,8 @@ import clas from './Message.module.css'
 function Message(props){
 	return(
 		<div className={clas.mes}>
-			{props.mes}
+			<div></div>
+			<p>{props.mes}</p>
 		</div>
 	);
 }

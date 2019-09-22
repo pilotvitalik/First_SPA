@@ -1,0 +1,19 @@
+.mes{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position: relative;
+	margin: 5px auto;
+	width: 95%;
+	min-height: 50px;
+	background: green;
+}
+.mes div{
+	display: block;
+	position: relative;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: red;
+	margin-right: 10px;
+}

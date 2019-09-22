@@ -5,13 +5,13 @@ import Messages from './messages/Messages';
 import {BrowserRouter,Route} from 'react-router-dom';
 import './Main.module.css';
 
-function Main(){
+function Main(props){
 	return(
 		<BrowserRouter>
 			<main>
 			   	<Sidebar />
-			   	<Route path = '/my_page' component={My_page}/>
-			   	<Route path = '/messages' component={Messages}/>
+			   	<Route path = '/my_page' render = { () => <My_page postData = {props.state.myPage.postData}/>} />
+			   	<Route path = '/messages' render = { () => <Messages Data = {props.state.messages.Data} Mes = {props.state.messages.Mes}/>} />
 		    </main>	
     	</BrowserRouter>
 	);

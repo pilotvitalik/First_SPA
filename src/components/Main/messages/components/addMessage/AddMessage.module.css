@@ -1,0 +1,25 @@
+.addMes{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	margin: auto auto 20px auto;
+	width: 95%;
+	height: 110px;
+}
+textarea{
+	display: block;
+	position: relative;
+	width: 99.5%;
+	height: 70px;
+	resize: none;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+button{
+	display: block;
+	position: relative;
+	width: 50%;
+	height: 30px;
+	margin: 0 0 0 auto;
+}
